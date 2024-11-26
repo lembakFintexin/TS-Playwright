@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,        // Enables importing JSON files
+    "types": ["@playwright/test"],
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": [
+    "mock_responce/**."         // Include the folder where the JSON file is located
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
